@@ -1,8 +1,11 @@
 defmodule Discuss.Topic do
   use DiscussWeb, :model
+  
 
   schema "topics" do
     field :title, :string
+
+    timestamps()
   end
 
   @doc false
